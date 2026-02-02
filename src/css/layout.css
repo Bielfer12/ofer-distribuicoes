@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction:inline;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--translucent-black);
+    color: var(--white-all);
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    margin-left: 1rem;
+}
+
+#name-Menu {
+    font-size: clamp(0.7rem,1.0vw,1.2rem);
+}
+
+.menu ion-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#img-logo {
+    height: clamp(2.5rem, 6.5vw, 3.5rem);
+    margin: 0.5rem 0 0.5rem 0;
+
+}
+.icons {
+    margin-right: 0.8rem;
+}
+
