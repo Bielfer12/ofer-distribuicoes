@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="menu" onclick="openMenu()">
+        <div id="menu" onclick="openMenu()">
             <ion-icon id="menu-icon" name="menu-outline"></ion-icon>
             <span id="name-Menu">Menu</span>
         </div>
@@ -30,6 +30,40 @@
             </a>
         </div>
     </header>
+    <div class="all">
+        <div id="open-menu">
+            <button id="close-button">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="names">
+                <div class="categories">
+                    <h2>Sobre Nós</h2>
+                    <button id="row-button"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </div>
+                <div class="categories">
+                    <h2>Marcas</h2>
+                    <button id="row-button"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </div>
+                <div class="categories">
+                    <h2>Catalogo</h2>
+                    <button id="row-button"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </div>
+                <div class="categories">
+                    <h2>Contato</h2>
+                    <button id="row-button"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-contato">
+            <span id="titulo-menu-contato"><b>Pronto para Qualidade?</b></span>
+            <div class="descr">
+                <img id="img-logo-menu-contato" src="./src/assets/images/Logo-ofer-Branca.png" alt="">
+                <p id="descr-menu-contato">Seja nosso parceiro e entregue excelencia aos seus clientes</p>
+            </div>
+            <button id="contato-menu"><b>Contate nos</b></button>
+        </div>
+    </div>
+
     <main>
         <section>
 
@@ -39,6 +73,7 @@
 
     </footer>
     <script src="./src/js/home.js"></script>
+    <script src="./src/js/components/menu-mobile.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
