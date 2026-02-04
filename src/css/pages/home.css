@@ -1,3 +1,5 @@
+/* TOP HOME */
+
 .top-home img {
    width: 100%;
    height: 150%;
@@ -24,6 +26,8 @@
 #home-top-descr p{
     margin: 1.5rem 0 1.5rem 0;
 }
+
+/* CARROSSEL MARCAS */
 
 .marcas-home {
     display: flex;
@@ -97,4 +101,58 @@
   to {
     transform: translateX(-50%);
   }
+}
+
+/* MISSAO,VISAO,VALORES E HISTORIA */
+
+.MVV {
+    font-family: "Poppins", sans-serif;;
+}
+
+.missao-visao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.missao-visao p {
+    font-size: clamp(0.8rem,3.8vw,1.8rem);
+    padding-left: 0.5rem;
+    border-left: solid 1px var(--black-all);
+}
+
+.visao {
+    background: var(--panel-color);
+    border-radius: 1rem;
+    color: var(--black-all);
+    padding: 1rem;
+}
+
+.missao {
+    background: var(--panel-color);
+    border-radius: 1rem;
+    color: var(--black-all);
+    padding: 1rem;
+    
+}
+
+.valores {
+    background: var(--second-color);
+    border-radius: 1rem;
+    color: var(--white-all);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.valores p {
+    padding-left: 0.5rem;
+    border-left: solid 1px white;
+}
+
+.missao-visao h1{
+
+}
+
+.missao-visao p{
+
 }
