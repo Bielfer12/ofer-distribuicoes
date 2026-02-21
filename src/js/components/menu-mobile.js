@@ -1,11 +1,18 @@
-let menu = document.querySelector('.all')
-const closeBtn = document.getElementById('close-button');
+document.addEventListener('DOMContentLoaded', () => {
 
-function openMenu() {
-    // console.log('clicou')
+  const menu = document.querySelector('.all');
+  const openBtn = document.getElementById('menu');
+  const closeBtn = document.getElementById('close-button');
+
+  function openMenu() {
     menu.classList.add('active');
   }
 
-    closeBtn.addEventListener('click', () => {
+  function closeMenu() {
     menu.classList.remove('active');
-  });
+  }
+
+  openBtn.addEventListener('click', openMenu);
+  closeBtn.addEventListener('click', closeMenu);
+
+});

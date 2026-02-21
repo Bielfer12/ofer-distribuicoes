@@ -107,7 +107,9 @@
 
 .MVV {
     font-family: "Poppins", sans-serif;;
-}
+    margin: 1rem;
+
+  }
 
 .missao-visao {
     display: flex;
