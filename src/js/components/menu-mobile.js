@@ -1,3 +1,5 @@
+console.log("MENU JS CARREGOU");
+
 document.addEventListener('DOMContentLoaded', () => {
 
   const menu = document.querySelector('.all');
